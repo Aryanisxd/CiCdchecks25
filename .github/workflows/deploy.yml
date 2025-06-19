@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Execute remote SSH commands using password
-        uses: appleboy/ssh-action@v1
+        uses: appleboy/ssh-action@v1.2.0
         with:
             host: 34.227.161.240
             username: ubuntu
